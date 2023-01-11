@@ -1,0 +1,40 @@
+h1 {
+    border: 1px dotted;
+    padding: 5px;
+    margin: 30px;
+    font-weight: bold;
+    color:aqua;
+}
+/**
+Para comentar
+*/
+p {
+    color:red;
+    width: 100px;
+}
+
+#miP {
+    color:blueviolet;
+}
+
+section {
+    font-family: 'Roboto', sans-serif;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+section h1{
+    font-weight:400px;    
+}
+
+body {
+    background-color: lightgreen;
+}
+
+@media only screen and (max-width:600px){
+    body {
+        background-color: lightblue;
+    }
+}

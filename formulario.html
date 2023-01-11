@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>creando un formulario</title>
+</head>
+<body>
+    <form action="" method="get"> <!--The HTTP method that the browser uses to submit the form. Possible values are:
+
+        post: Corresponds to the HTTP POST method ; form data are included in the body of the form and sent to the server.
+        get: Corresponds to the HTTP GET method; form data are appended to the action attribute URI with a '?' as separator, and the resulting URI is sent to the server. Use this method when the form has no side-effects and contains only ASCII characters.
+        dialog: Use when the form is inside a <dialog> element to close the dialog when submitted.-->
+        <label>Nombre</label>
+        <input type="text" required="obligatorio" name="name" placeholder="Ingrese su nombre">
+        <label>Apellido</label>
+        <input type="text" name="surname" placeholder="Ingrese su apellido">
+        <label>E-mail</label>
+        <input type="email" name="email" placeholder="Ingrese su email">
+        <label>Password</label>
+        <input type="password" name="password" placeholder="Ingrese su password">
+        <label>Submit</label>
+        <input type="submit" placeholder="enviar">
+    </form>
+</body>
+</html>
